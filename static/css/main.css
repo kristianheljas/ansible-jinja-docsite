@@ -1,0 +1,251 @@
+.btn {
+  background-color: #102441;
+  border: 0px;
+  cursor: pointer;
+  font-size: medium;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  text-align: left; }
+  .btn:hover {
+    color: #ffffff !important;
+    background-color: #5cbec1; }
+
+.cards .row {
+  background: #102441; }
+
+.cards .card-body {
+  z-index: 2; }
+  .cards .card-body a {
+    color: #ffffff; }
+    .cards .card-body a:hover {
+      text-decoration: underline;
+      color: #004080; }
+
+.cards .card-quick-link {
+  font-size: large;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: center; }
+
+.cards .card-text {
+  font-size: large;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: justify; }
+
+.clipboard {
+  font-size: large;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-align: left; }
+  .clipboard pre {
+    background-color: #5cbec1;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 90%;
+    text-align: left;
+    display: inline-block; }
+  .clipboard code {
+    background: none; }
+  .clipboard .btn {
+    background-color: #5cbec1;
+    border: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer; }
+    .clipboard .btn:hover {
+      background-color: #5cbec1; }
+  .clipboard .fa-clipboard {
+    color: #ffffff;
+    background-color: #5cbec1; }
+
+nav {
+  background: #102441;
+  color: #ffffff;
+  font-size: 1.25rem; }
+  nav .navbar-toggler {
+    color: #ffffff;
+    outline: none; }
+    nav .navbar-toggler .icon-bar {
+      display: block;
+      width: 1.375rem;
+      height: 0.125rem;
+      border-radius: 1px;
+      background-color: #ffffff;
+      transition: all 300ms ease-in-out;
+      transform: rotate(0);
+      opacity: 1;
+      margin-top: 0.3125rem; }
+    nav .navbar-toggler .icon-bar.top {
+      margin-top: 0.625rem;
+      transform: rotate(45deg); }
+    nav .navbar-toggler .icon-bar.center {
+      opacity: 0; }
+    nav .navbar-toggler .icon-bar.bottom {
+      margin-top: -0.5rem;
+      transform: rotate(-45deg); }
+  nav .navbar-toggler.collapsed .icon-bar {
+    transform: rotate(0);
+    opacity: 1;
+    margin-top: 0.5rem; }
+  nav .nav-link {
+    color: #ffffff;
+    font-size: 1rem; }
+
+.grid-wrapper,
+.component-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2em 3em;
+  clear: both; }
+
+.width-1-12 {
+  grid-column: span 1; }
+
+.width-2-12 {
+  grid-column: span 2; }
+
+.width-3-12 {
+  grid-column: span 3; }
+
+.width-4-12 {
+  grid-column: span 4; }
+
+.width-5-12 {
+  grid-column: span 5; }
+
+.width-6-12 {
+  grid-column: span 6; }
+
+.width-7-12 {
+  grid-column: span 7; }
+
+.width-8-12 {
+  grid-column: span 8; }
+
+.width-9-12 {
+  grid-column: span 9; }
+
+.width-10-12 {
+  grid-column: span 10; }
+
+.width-11-12 {
+  grid-column: span 11; }
+
+.width-12-12 {
+  grid-column: span 12; }
+
+@media (max-width: 48em) {
+  .width-1-12-m {
+    grid-column: span 1; } }
+
+@media (max-width: 48em) {
+  .width-2-12-m {
+    grid-column: span 2; } }
+
+@media (max-width: 48em) {
+  .width-3-12-m {
+    grid-column: span 3; } }
+
+@media (max-width: 48em) {
+  .width-4-12-m {
+    grid-column: span 4; } }
+
+@media (max-width: 48em) {
+  .width-5-12-m {
+    grid-column: span 5; } }
+
+@media (max-width: 48em) {
+  .width-6-12-m {
+    grid-column: span 6; } }
+
+@media (max-width: 48em) {
+  .width-7-12-m {
+    grid-column: span 7; } }
+
+@media (max-width: 48em) {
+  .width-8-12-m {
+    grid-column: span 8; } }
+
+@media (max-width: 48em) {
+  .width-9-12-m {
+    grid-column: span 9; } }
+
+@media (max-width: 48em) {
+  .width-10-12-m {
+    grid-column: span 10; } }
+
+@media (max-width: 48em) {
+  .width-11-12-m {
+    grid-column: span 11; } }
+
+@media (max-width: 48em) {
+  .width-12-12-m {
+    grid-column: span 12; } }
+
+body {
+  background: #102441;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif; }
+
+h1 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.5rem;
+  text-transform: none; }
+
+h2 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.25rem;
+  text-transform: none; }
+
+h3 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-transform: none; }
+
+h4 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  text-transform: none; }
+
+h5 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-transform: none; }
+
+h6 {
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif; }
+
+.container {
+  max-width: 75%; }
+
+a {
+  color: #ffffff; }
+  a:hover {
+    color: #5cbec1; }
+
+.full-width-bg {
+  margin: 0 -13rem;
+  padding: 0 13rem; }
+  @media screen and (max-width: 1170px) {
+    .full-width-bg {
+      margin: 0 -6rem;
+      padding: 0 6rem; } }
+  @media screen and (max-width: 768px) {
+    .full-width-bg {
+      margin: 0 -2rem;
+      padding: 0 2rem; } }
+.component {
+  padding-top: 4rem;
+  padding-bottom: 6rem; }
+  .component-slim {
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+
+.page-title {
+  font-size: 1.45rem;
+  line-height: 1.9rem;
+  text-align: center;
+  padding-top: 2rem; }
